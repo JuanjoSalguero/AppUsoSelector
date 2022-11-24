@@ -53,6 +53,7 @@ public class APPUsoSelectorController implements Initializable {
         items.add("Tres");
         items.add("Cuatro");
         
+        // Le pasamos a los dos selectores creados el array list cargado de los datos (items)
         selectorArriba.setItems(items);
         selectorAbajo.setItems(items);
     }

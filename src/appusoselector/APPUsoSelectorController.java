@@ -52,5 +52,8 @@ public class APPUsoSelectorController implements Initializable {
         items.add("Dos");
         items.add("Tres");
         items.add("Cuatro");
+        
+        selectorArriba.setItems(items);
+        selectorAbajo.setItems(items);
     }
 }

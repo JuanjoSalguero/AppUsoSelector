@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import ComponentesPersonalizadosI.SelectorDeslizamiento?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorController">
+    <children>
+      <Label layoutX="130.0" layoutY="28.0" text="Selectores" textFill="#fa0000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <SelectorDeslizamiento fx:id="selectorArriba" layoutX="84.0" layoutY="69.0" />
+      <SelectorDeslizamiento fx:id="selectorAbajo" layoutX="84.0" layoutY="113.0" />
+      <Label fx:id="etiquetaPulsado" layoutX="58.0" layoutY="152.0" prefHeight="18.0" prefWidth="240.0" text="   " textFill="#03b13a" />
+    </children>
+</AnchorPane>

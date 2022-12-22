@@ -4,7 +4,7 @@
  */
 package appusoselector;
 
-import ComponentesPersonalizadosI.SelectorDeslizamiento;
+import Componentes.SelectorDeslizamiento;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
